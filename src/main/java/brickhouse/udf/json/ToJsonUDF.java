@@ -94,8 +94,7 @@ public class ToJsonUDF extends GenericUDF {
 		}
 
 	}
-	
-	
+
 	private class StructInspectorHandle implements InspectorHandle {
 		private StructObjectInspector structInspector;
 		private List<String> fieldNames;
@@ -140,7 +139,6 @@ public class ToJsonUDF extends GenericUDF {
 		}
 		
 	}
-
 
 	private class ArrayInspectorHandle implements InspectorHandle {
 		private ListObjectInspector arrayInspector;
